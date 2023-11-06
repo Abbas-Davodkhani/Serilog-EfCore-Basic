@@ -3,9 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EF9A8300-CFFE-4F17-A752-A1AF07B7CD69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.EfCore.Basic.Api", "Serilog.EfCore.Basic.Api\Serilog.EfCore.Basic.Api.csproj", "{B7273D61-6714-4192-9C5A-FBA45C6C53A7}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7273D61-6714-4192-9C5A-FBA45C6C53A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7273D61-6714-4192-9C5A-FBA45C6C53A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7273D61-6714-4192-9C5A-FBA45C6C53A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7273D61-6714-4192-9C5A-FBA45C6C53A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B7273D61-6714-4192-9C5A-FBA45C6C53A7} = {EF9A8300-CFFE-4F17-A752-A1AF07B7CD69}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {049A8E8A-E1F5-40B0-A461-554B65E1DFFF}
